@@ -15,13 +15,7 @@
     "icons": {
         "512": "icons/setting.png"
     },
-
-    "content_scripts": [
-        {
-            "matches": ["http://*/*", "https://*/*", "<all_urls>"],
-            "js": ["test.js"]
-        }
-    ],
+    
     "browser_action": {
         "default_icon": {
             "512": "icons/setting.png"
