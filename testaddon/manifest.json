@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDescription__",
+    "default_locale": "en",
+    
+    "permissions": ["storage", "unlimitedStorage","tabs","<all_urls>"],
+    
+    "options_ui": {
+        "page": "options/options.html"
+    },
+
+    "icons": {
+        "512": "icons/setting.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+            "js": ["test.js"]
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+            "512": "icons/setting.png"
+        },
+        "default_popup": "popup/popup.html"
+    }
+
+}

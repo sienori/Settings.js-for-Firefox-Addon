@@ -1,0 +1,23 @@
+{
+    "extName": {
+        "message": "TEST Add-on"
+    },
+    "extDescription": {
+        "message": "Test"
+    },
+    "textLabel":{
+        "message": "text i18n-en"
+    },
+    "checkboxLabel":{
+        "message": "checkbox i18n-en"
+    },
+    "colorLabel":{
+        "message": "color i18n-en"
+    },
+    "rangeLabel":{
+        "message": "range i18n-en"
+    },
+    "saveLabel":{
+        "message": "save i18n-en"
+    }
+}
